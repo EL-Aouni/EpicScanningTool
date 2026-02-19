@@ -12,7 +12,7 @@ class PayloadManager:
     """Manages payload fetching and caching from PayloadsAllTheThings"""
     
     PAYLOADS_REPO = "https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master"
-    CACHE_DIR = Path.home() / ".apec-pentesting-tool" / "payloads"
+    CACHE_DIR = Path.home() / ".Epic-pentesting-tool" / "payloads"
     
     PAYLOAD_PATHS = {
         'xss': '/XSS%20Injection/README.md',
