@@ -43,12 +43,12 @@ class ScannerThread(QThread):
         except Exception as e:
             self.error.emit(str(e))
 
-class APECPentestingTool(QMainWindow):
+class EpicPentestingTool(QMainWindow):
     """Main application window"""
     
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("APEC Penetration Testing Tool")
+        self.setWindowTitle("Epic Penetration Testing Tool")
         self.setGeometry(100, 100, 1400, 900)
         self.payload_manager = PayloadManager()
         self.current_vulnerabilities = []
@@ -84,7 +84,7 @@ class APECPentestingTool(QMainWindow):
         header.setStyleSheet("background-color: #1a1a2e; border-bottom: 2px solid #00d4ff;")
         layout = QVBoxLayout()
         
-        title = QLabel("🛡️ APEC Penetration Testing Tool")
+        title = QLabel("🛡️ Epic Penetration Testing Tool")
         title_font = QFont()
         title_font.setPointSize(18)
         title_font.setBold(True)
@@ -242,7 +242,7 @@ class APECPentestingTool(QMainWindow):
         about_text = QTextEdit()
         about_text.setReadOnly(True)
         about_text.setText("""
-<h2>APEC Penetration Testing Tool v1.0</h2>
+<h2>Epic Penetration Testing Tool v1.0</h2>
 
 <h3>Features:</h3>
 <ul>
@@ -482,7 +482,7 @@ Low: {summary['low']}
 
 def main():
     app = QApplication(sys.argv)
-    window = APECPentestingTool()
+    window = EpicPentestingTool()
     window.show()
     sys.exit(app.exec())
 
