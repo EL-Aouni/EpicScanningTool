@@ -1,6 +1,6 @@
 @echo off
 echo.
-echo 🛡️ APEC Penetration Testing Tool - Setup
+echo 🛡️ Epic Penetration Testing Tool - Setup
 echo ==========================================
 echo.
 
