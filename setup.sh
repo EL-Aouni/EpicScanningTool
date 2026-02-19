@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🛡️ APEC Penetration Testing Tool - Setup"
+echo "🛡️ Epic Penetration Testing Tool - Setup"
 echo "=========================================="
 
 # Check Python version
