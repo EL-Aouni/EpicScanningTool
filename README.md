@@ -1,4 +1,4 @@
-# APEC Penetration Testing Tool
+# Epic Scanning Tool Tool
 
 A powerful professional-grade penetration testing application built with Python and PyQt6, featuring comprehensive vulnerability scanning with integrated PayloadsAllTheThings database.
 
@@ -39,7 +39,7 @@ A powerful professional-grade penetration testing application built with Python 
 
 1. **Clone or download the project:**
 ```bash
-cd apec-pentesting-tool
+cd EpicScanningTool
 ```
 
 2. **Create virtual environment:**
@@ -113,7 +113,7 @@ python main.py
 ## 📁 Project Structure
 
 ```
-apec-pentesting-tool/
+EpicScanningTool/
 ├── main.py              # Main PyQt6 application
 ├── scanner.py           # Vulnerability scanning engine
 ├── payload_manager.py   # PayloadsAllTheThings integration
@@ -162,8 +162,8 @@ Payloads are sourced from the official PayloadsAllTheThings repository:
 ## 💾 Data Storage
 
 **Payload Cache Location:**
-- Linux/Mac: `~/.apec-pentesting-tool/payloads/`
-- Windows: `%USERPROFILE%\.apec-pentesting-tool\payloads\`
+- Linux/Mac: `~/.EpicScanningTool/payloads/`
+- Windows: `%USERPROFILE%\.EpicScanningTool\payloads\`
 
 **Cache Contents:**
 - `payloads_cache.json` - Cached payloads from PayloadsAllTheThings
@@ -209,7 +209,7 @@ python -u main.py
 - Check internet connection
 - Verify GitHub is accessible
 - Payloads will use defaults if download fails
-- Check cache at `~/.apec-pentesting-tool/payloads/`
+- Check cache at `~/.EpicScanningTool/payloads/`
 
 ### Slow Scanning
 - Reduce scan depth
@@ -322,5 +322,5 @@ This project is provided as-is for authorized security testing purposes.
 
 ---
 
-**APEC Penetration Testing Tool v1.0**
+**Epic Scanning Tool Tool v1.0**
 Professional Security Scanning with PayloadsAllTheThings Integration
