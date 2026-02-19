@@ -20,7 +20,7 @@ class VulnerabilityScanner:
         self.vulnerabilities = []
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'APEC-Pentesting-Tool/1.0'
+            'User-Agent': 'Epic-Pentesting-Tool/1.0'
         })
     
     def scan_url(self, url: str, depth: int = 2) -> List[Dict]:
